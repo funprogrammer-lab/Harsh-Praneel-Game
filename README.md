@@ -49,6 +49,12 @@ python -m venv .venv
 4. Install dependencies:
 
 ```bash
+pip install -r requirements.txt
+```
+
+Alternatively, install pygame directly:
+
+```bash
 pip install pygame
 ```
 
@@ -87,5 +93,4 @@ python platformer.py
 - The game window is resizable.
 - The level designs include static platforms, moving platforms, hazards, and warp pipes.
 - If the `Orbitron` font is unavailable, the game will use a system fallback font.
-- The `Orbitron` font is a Google font available online to download.# Harsh-Praneel-Game
-# Harsh-Praneel-Game
+- The `Orbitron` font is a Google font available online to download.
